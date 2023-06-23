@@ -1,0 +1,190 @@
+header {
+    display: inline; 
+    top:0;
+    position: fixed;
+    background-color: #FFDAB9;
+    width: 99%;
+    height: 65px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 74px;
+    display: block;
+}
+
+img {
+    height: 75px;
+    top: 0;
+    float: left;
+    padding-bottom: 15px;
+    width: 90px;
+}
+
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right; 
+}
+
+@media (max-width: 594px) {
+    nav > ul {
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-around;    
+    }
+}
+
+a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+footer a {
+    justify-content: space-around;  
+    flex-direction: row;  
+    display: flex;
+}
+
+li {
+display: inline;
+}
+
+#email {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 280px;
+    height: 20px;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+    background-color: #D2691E;
+    color: white;
+    border-radius: 10px;
+}
+
+#submit:hover {
+    color: black;
+    background-color: #FFDAB9;
+    transition: 1s;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+    height: 320px;
+    width: 500px;
+    margin-top: 45px;
+}
+
+@media (max-width: 594px) {
+    #video {
+    margin-top: -7px;
+    }
+}
+
+#container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 20px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media (max-width: 594px) {
+    #container {
+    flex-direction: column;
+    margin-top: 215px;
+    margin-bottom: 215px;
+    height: 200px;
+    }
+    .item {
+    width: 100px;
+    margin: 0 auto;
+    }
+    
+    button{
+    margin-bottom: 5px;
+    }
+}
+    
+.club {
+    background-color: #FFDAB9;
+    text-align: center;
+    height: 24px;
+}
+
+.item {
+    border: solid;
+    width: 250px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 35px;
+    flex-direction: column;
+}
+
+section a {
+    justify-content: space-around;  
+    flex-direction: row;  
+    display: flex;  
+}
+
+button {
+    margin-top: 25px;
+    background-color: #D2691E;
+    color: white;
+}
+
+button:hover {
+    color: black;
+    background-color: #FFDAB9;
+    transition: 1s;  
+}
+
+.stuff {
+    text-align: center;
+}
+
+footer {
+    background-color: #FFDAB9;
+    height: 110px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    height: 168px;
+}
+
+i {
+    color: #D2691E;
+}
+
+body {
+    background-color: #FFF5EE;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.get-started {
+    margin-top: 20px;
+}
+
+
